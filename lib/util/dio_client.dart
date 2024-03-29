@@ -22,7 +22,7 @@ class DioClient {
       receiveTimeout: const Duration(seconds: 60),
       responseType: ResponseType.json,
     ),
-  )..interceptors.add(LogInterceptor());
+  );
 
   ///Get Method
   Future get(
